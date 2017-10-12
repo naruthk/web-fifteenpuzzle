@@ -1,0 +1,37 @@
+/*
+Naruth Kongurai
+CSE 154
+Section: AO
+This is a CSS file used for styling the overall layout and theme of the fifteen puzzle web app.
+*/
+
+body {
+    font-family: cursive;
+    font-size: 14pt;
+    text-align: center;
+}
+
+.highlight {
+    border: red;
+    color: red;
+    cursor: pointer;
+}
+
+#puzzlearea {
+    height: 400px;
+    margin: auto;
+    position: relative;
+    width: 400px;
+}
+
+.tile {
+    background-image: url("background.jpg");
+    border: 5px solid;
+    height: 90px;
+    position: absolute;
+    width: 90px;
+}
+
+.tile span {
+    font-size: 40pt;
+}
